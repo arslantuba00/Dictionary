@@ -15,6 +15,7 @@ namespace Dictionary
         {
             dictionarykey = new T[0];
             dictionaryvalue = new U[0];
+
         }
 
         public void Add(T anahtar, U deger)
