@@ -35,7 +35,18 @@ namespace Dictionary
             dictionarykey[dictionarykey.Length - 1] = anahtar;
             dictionaryvalue[dictionaryvalue.Length - 1] = deger;
 
+            
            
+        }
+        
+        public void Yazdir()
+        {
+
+            for (int i = 0; i < dictionarykey.Length; i++)
+            {
+                Console.WriteLine("Anahtar: " + dictionarykey[i] + " Değer: " + dictionaryvalue[i]);
+            }
+
         }
     }
 }

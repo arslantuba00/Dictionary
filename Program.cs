@@ -16,6 +16,10 @@ namespace Dictionary
             dictionary.Add("Tubiş", 1);
             dictionary.Add("Fırat", 2);
             dictionary.Add("Tuna", 3);
+
+            dictionary.Yazdir();
+
+            Console.ReadLine();
         }
     }
 }
